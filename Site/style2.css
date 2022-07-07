@@ -1,0 +1,10 @@
+.box-spotify{
+    position:fixed;
+    width: 100%;
+    bottom: 0;
+  	left: 50%;
+  	transform: translate(-50%, 0);
+}
+.spotify{
+    border-radius:12px;
+}
