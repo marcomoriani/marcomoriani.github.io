@@ -7,6 +7,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="style2.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="main2.js"></script>
 </head>
 <body>
 
@@ -92,14 +93,20 @@
         </button>
     </div>
 
+    <!--Testo con immagini-->
     <div class="container d-flex justify-content-between my-5">
         <div class="row">
             <div class="col-lg-8  ">
                 <h1>Titolo</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, ratione. Consequatur repudiandae fugit id cupiditate, perspiciatis iusto. Itaque earum autem minima ipsam facilis debitis ratione? Accusamus nihil voluptatum nostrum dolore.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, ratione. Consequatur repudiandae fugit id cupiditate, perspiciatis iusto. Itaque earum autem minima ipsam facilis debitis ratione? Accusamus nihil voluptatum nostrum dolore.
+                <p id="txt-it-en">Buongiorno! Oggi vi presento la mia famiglia. Io sono il padre, mi chiamo Gennaro Pirlo, ho trentasette anni, e lavoro come scrittore e giornalista da quando ne avevo venti.
+                    Mia moglie si chiama Antonella Totti, ha trentacinque anni ed è una splendida attrice di teatro.
+                    La nostra famiglia è composta anche da altre due persone, i nostri figli, Manuela che ha diciassette anni, e Marco che ha quindici anni, e poi c'è anche Tremendo, il cane che vive con noi da nove anni, ed è parte della famiglia. 
                 </p>
-                <button type="button" class="btn btn-success px-3"><a> Invio</a></button>
+                <div class="d-flex">
+                    <button type="button" class="btn btn-success px-4 me-4" onclick="myFunction()"> Text 1</button>
+                    <button type="button" class="btn btn-success px-4" onclick="myFunction2()"> Text 2</button>
+                </div>
+                
             </div>
         
             <div class="col-lg-4">
@@ -107,6 +114,8 @@
             </div>
         </div>
     </div>
+
+    <!--Testo Centrato-->
     <div class="container d-flex flex-column border-top ">
         <div class="row">
             <div class="col-lg-12 txt-center mt-3">
@@ -118,6 +127,7 @@
         </div>
     </div>
 
+    <!--Lista elementi-->
         <div class="conteiner border-top my-4 mx-5 px-5">
             <h1 class="my-3">Lista</h1>
             <div class="row">
@@ -166,7 +176,11 @@
         </div>
     </div>
 
-    <div class="border-top mt-5"></div>
+    <div class="border-top mt-5">
+        <footer class="txt-center my-3">
+            <p>&copy; Marco Moriani <span id="anno"></span> All rights reserved. </p>
+        </footer>
+    </div>
     <!--<div class="box-spotify">
         <iframe class="spotify" src="https://open.spotify.com/embed/playlist/3GU7wJKI2ZE2c34kuWQWJo?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
     </div> -->
