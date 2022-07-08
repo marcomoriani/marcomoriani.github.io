@@ -1,9 +1,5 @@
-.box-spotify{
-    position:fixed;
-    width: 100%;
-    bottom: 0;
-  	left: 50%;
-  	transform: translate(-50%, 0);
+.slide{
+    width:100%;
 }
 .spotify{
     border-radius:12px;
@@ -29,6 +25,14 @@
 @media only screen and (max-width:992px) {
     .img-width{
         float:left;
-        margin-top: 2%;
+        margin-top: 10%;
     }
 }
+
+@media only screen and (max-width:768px) {
+    .slide{
+        height: 80%;
+        width:auto;
+    }
+}
+
