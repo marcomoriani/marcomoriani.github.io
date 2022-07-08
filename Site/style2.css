@@ -8,3 +8,27 @@
 .spotify{
     border-radius:12px;
 }
+
+.txt-center{
+    text-align: center;
+}
+
+.img-width{
+    max-width:100%;
+    float:right;
+}
+
+.list-box{
+    cursor: pointer;
+}
+
+.list-element:hover{
+    background-color: rgb(222, 222, 222);
+}
+
+@media only screen and (max-width:992px) {
+    .img-width{
+        float:left;
+        margin-top: 2%;
+    }
+}
